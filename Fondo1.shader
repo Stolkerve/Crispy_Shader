@@ -1,8 +1,9 @@
 shader_type canvas_item;
 
-// Es preferible usar un sampler2D sobre un existente textura
+// Es preferible usar un sampler2D sobre una existente textura
 // Por que si el fondo es de baja de resolucion, el scalado lo matara
 // Pero si se deja como un sampler2D no se ve afectado por el scalado
+// Algo que tengo que hacer es verificar cuanta memoria ocupa en la gpu
 
 // No necesitas crispy para fundirte el cerebro
 
